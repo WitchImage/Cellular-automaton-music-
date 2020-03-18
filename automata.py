@@ -129,3 +129,4 @@ class Automata:
             self.rules.append('0')
         #return ''.join(reversed(self.rules))
         self.rule = ''.join(reversed(self.rules))
+        self.rule = [int(r) for r in self.rule]
